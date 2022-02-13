@@ -1,0 +1,26 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  .bread_crumbs {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    color: #194484;
+    .arrow {
+      margin: 0 12px;
+    }
+  }
+  .title {
+    display: flex;
+    font-size: 44px;
+    font-weight: 600;
+    color: #194484;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .picture {
+    display: flex;
+    margin-right: 90px;
+  }
+}
