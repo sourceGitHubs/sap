@@ -1,0 +1,64 @@
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  left: 0;
+}
+
+.content .back .ground {
+  width: 100%;
+}
+
+.content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 137px;
+}
+
+.content .cards .card {
+  display: block;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 3px 16px 2px #1d336b26;
+          box-shadow: 0px 3px 16px 2px #1d336b26;
+  margin-bottom: 80px;
+}
+
+.content .cards .card h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0d6eb7;
+}
+
+.content .cards .card p {
+  margin: 8px 0;
+}
+
+.content .cards .card .information {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px 16px 20px 16px;
+}
+
+.content .cards .card .cardimg {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  -webkit-box-shadow: -1px 3px 6px -2px #1d336b26;
+          box-shadow: -1px 3px 6px -2px #1d336b26;
+}

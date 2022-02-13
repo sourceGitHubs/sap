@@ -4,7 +4,8 @@
   .bread_crumbs {
     display: flex;
     justify-content: center;
-    position: fixed;
+    // position: fixed;
+    position: absolute;
     color: #194484;
     .arrow {
       margin: 0 12px;
