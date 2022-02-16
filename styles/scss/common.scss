@@ -8,4 +8,25 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 0 120px;
+
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  // scrollbar-color: #00000021 #ffffff81;
+  // border-radius: 1px solid;
+  // scrollbar-width: thin;
+
+  // &::-webkit-scrollbar {
+  //   width: 8px; /* ширина для вертикального скролла */
+  //   height: 8px; /* высота для горизонтального скролла */
+  //   background-color: #ffffff81;
+  // }
+
+  // /* ползунок скроллбара */
+  // &::-webkit-scrollbar-thumb {
+  //   background-color: #00000021;
+  // }
+
+  // &::-webkit-scrollbar-thumb:active {
+  //   background-color: #ffffff18;
+  // }
 }
