@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+}
+
+.footer::after {
+  content: '';
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 115%;
+  left: 0;
+  right: 0;
+  background-image: url(../../images/footer/front_footer.svg);
+}
