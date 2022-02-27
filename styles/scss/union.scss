@@ -328,7 +328,9 @@ $fullHD: 1920px;
 
 @media screen and (min-width: $small_mobile) and (max-width: 691px) {
   .union {
+    margin: 0;
     .content {
+      margin: 0 0 100px 0;
       .cards {
         padding-top: 45px;
         .card {

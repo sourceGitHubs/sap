@@ -296,6 +296,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 691px) {
+  .union {
+    margin: 0;
+  }
+  .union .content {
+    margin: 0 0 100px 0;
+  }
   .union .content .cards {
     padding-top: 45px;
   }
