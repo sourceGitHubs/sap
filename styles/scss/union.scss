@@ -1,0 +1,523 @@
+.union {
+  background-size: 100% calc(100% - 100px);
+  background-repeat: no-repeat;
+  margin: 0 -120px;
+
+  .content {
+    display: flex;
+    margin-bottom: 100px;
+    margin: 0 120px 100px;
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 137px;
+      // position: relative;
+      justify-content: space-between;
+
+      .card {
+        display: block;
+        border-radius: 16px;
+        box-shadow: 0px 3px 16px 2px #1d336b26;
+        width: calc(33.33% - 55px);
+        margin-bottom: 80px;
+
+        h1 {
+          margin: 0;
+          font-size: 24px;
+          color: #0d6eb7;
+        }
+        p {
+          margin: 8px 0;
+        }
+
+        .information {
+          display: block;
+          box-sizing: border-box;
+          padding: 16px 16px 20px 16px;
+        }
+
+        .cardimg {
+          border-top-left-radius: 16px;
+          border-top-right-radius: 16px;
+          // border-bottom: 1px solid rgba(128, 128, 128, 0.199);
+          box-shadow: -1px 3px 6px -2px #1d336b26;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .partners {
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .info {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      color: #000;
+
+      h2 {
+        margin: 0;
+        font-size: 44px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        margin: 0;
+        font-size: 24px;
+        margin-bottom: 36px;
+      }
+      .button_talk {
+        position: relative;
+        display: flex;
+        font-family: Montserrat;
+        font-weight: 600;
+        color: #06b25f;
+        font-size: 16px;
+        border: 3px solid #06b25f;
+        border-radius: 8px;
+        background-color: #fff;
+        outline: none;
+        padding: 7px 31px;
+      }
+    }
+  }
+}
+
+$small_mobile: 320px;
+$mobile: 768px;
+$small_table: 1024px;
+$table: 1279px;
+$desktop: 1280px;
+$notebook: 1366px;
+$small_fullHD: 1440px;
+$fullHD: 1920px;
+
+@media screen and (min-width: $notebook) and (max-width: $small_fullHD) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 100px;
+        .card {
+          width: calc(35% - 55px);
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) and (max-width: $notebook) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 80px;
+        .card {
+          width: calc(35% - 40px);
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: $table) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 80px;
+        .card {
+          width: calc(35% - 40px);
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: 1140px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 65px;
+        .card {
+          width: calc(35% - 40px);
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: 1070px) {
+  .union {
+    .content {
+      .cards {
+        .card {
+          width: calc(35% - 40px);
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: $small_table) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 65px;
+        .card {
+          width: calc(37% - 45px);
+          margin-bottom: 60px;
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 941px) {
+  .union {
+    .content {
+      .cards {
+        .card {
+          width: calc(37% - 45px);
+          margin-bottom: 35px;
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 871px) {
+  .union {
+    .content {
+      .cards {
+        .card {
+          width: calc(40% - 60px);
+          margin-bottom: 35px;
+          p {
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 831px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: calc(50% - 30px);
+          margin-bottom: 50px;
+
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: $mobile) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 45%;
+          margin-bottom: 70px;
+
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 691px) {
+  .union {
+    margin: 0;
+    .content {
+      margin: 0 0 100px 0;
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 45%;
+          margin-bottom: 70px;
+
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 541px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 70%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 451px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 75%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 421px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 70%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 381px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 70%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 16px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 361px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 70%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 15px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 331px) {
+  .union {
+    .content {
+      .cards {
+        padding-top: 45px;
+        .card {
+          width: 70%;
+          margin-bottom: 70px;
+
+          margin: auto auto 60px auto;
+
+          p {
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+          h1 {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

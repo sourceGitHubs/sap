@@ -1,0 +1,257 @@
+.products {
+  display: flex;
+  justify-content: space-between;
+  .bread_crumbs {
+    display: flex;
+    justify-content: center;
+    // position: fixed;
+    position: absolute;
+    color: #194484;
+    .arrow {
+      margin: 0 12px;
+    }
+  }
+  .title {
+    display: flex;
+    font-size: 44px;
+    font-weight: 600;
+    color: #194484;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .picture {
+    display: flex;
+    margin-right: 90px;
+    .pic {
+      width: 100%;
+    }
+  }
+}
+
+$small_mobile: 320px;
+$mobile: 768px;
+$small_table: 1024px;
+$table: 1279px;
+$desktop: 1280px;
+$notebook: 1366px;
+$small_fullHD: 1440px;
+$fullHD: 1920px;
+
+@media screen and (max-width: 1440px) {
+  .products {
+    .title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  .products {
+    .title {
+      font-size: 35px;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) and (max-width: ($notebook + 1)) {
+  .products {
+    .title {
+      font-size: 35px;
+    }
+    .picture {
+      width: 40%;
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: ($table + 1)) {
+  .products {
+    .title {
+      font-size: 32px;
+    }
+    .picture {
+      width: 40%;
+      margin-right: 65px;
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: 1151px) {
+  .products {
+    .title {
+      font-size: 30px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: $small_table) and (max-width: 1070px) {
+  .products {
+    .title {
+      font-size: 25px;
+    }
+    .picture {
+      width: 42%;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: $small_table) {
+  .products {
+    .title {
+      font-size: 25px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 995px) {
+  .products {
+    .title {
+      font-size: 25px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 35px;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 910px) {
+  .products {
+    .title {
+      font-size: 25px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: 851px) {
+  .products {
+    .title {
+      font-size: 23px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: $mobile) {
+  .products {
+    .title {
+      font-size: 23px;
+    }
+    .picture {
+      width: 42%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 541px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    .bread_crumbs {
+      // top: 107px;
+      // left: 13px;
+      display: none;
+    }
+    .title {
+      font-size: 38px;
+    }
+    .picture {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 515px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    .bread_crumbs {
+      top: 107px;
+      left: 13px;
+      // display: none;
+    }
+    .title {
+      font-size: 35px;
+    }
+    .picture {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 471px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    .bread_crumbs {
+      top: 107px;
+      left: 13px;
+      // display: none;
+    }
+    .title {
+      font-size: 30px;
+    }
+    .picture {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 421px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    .bread_crumbs {
+      top: 85px;
+      left: 13px;
+      // display: none;
+    }
+    .title {
+      font-size: 25px;
+    }
+    .picture {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $small_mobile) and (max-width: 351px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    .bread_crumbs {
+      font-size: 13px;
+      top: 85px;
+      left: 13px;
+      // display: none;
+    }
+    .title {
+      font-size: 22px;
+    }
+    .picture {
+      width: 80%;
+      margin-right: 0;
+    }
+  }
+}

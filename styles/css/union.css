@@ -1,0 +1,455 @@
+.union {
+  background-size: 100% calc(100% - 100px);
+  background-repeat: no-repeat;
+  margin: 0 -120px;
+}
+
+.union .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 100px;
+  margin: 0 120px 100px;
+}
+
+.union .content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 137px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.union .content .cards .card {
+  display: block;
+  border-radius: 16px;
+  -webkit-box-shadow: 0px 3px 16px 2px #1d336b26;
+          box-shadow: 0px 3px 16px 2px #1d336b26;
+  width: calc(33.33% - 55px);
+  margin-bottom: 80px;
+}
+
+.union .content .cards .card h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #0d6eb7;
+}
+
+.union .content .cards .card p {
+  margin: 8px 0;
+}
+
+.union .content .cards .card .information {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 16px 16px 20px 16px;
+}
+
+.union .content .cards .card .cardimg {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  -webkit-box-shadow: -1px 3px 6px -2px #1d336b26;
+          box-shadow: -1px 3px 6px -2px #1d336b26;
+  width: 100%;
+}
+
+.union .partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.union .partners .info {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #000;
+}
+
+.union .partners .info h2 {
+  margin: 0;
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+
+.union .partners .info h3 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.union .partners .info .button_talk {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #06b25f;
+  font-size: 16px;
+  border: 3px solid #06b25f;
+  border-radius: 8px;
+  background-color: #fff;
+  outline: none;
+  padding: 7px 31px;
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+  .union .content .cards {
+    padding-top: 100px;
+  }
+  .union .content .cards .card {
+    width: calc(35% - 55px);
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .union .content .cards {
+    padding-top: 80px;
+  }
+  .union .content .cards .card {
+    width: calc(35% - 40px);
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .union .content .cards {
+    padding-top: 80px;
+  }
+  .union .content .cards .card {
+    width: calc(35% - 40px);
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1140px) {
+  .union .content .cards {
+    padding-top: 65px;
+  }
+  .union .content .cards .card {
+    width: calc(35% - 40px);
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1070px) {
+  .union .content .cards .card {
+    width: calc(35% - 40px);
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .union .content .cards {
+    padding-top: 65px;
+  }
+  .union .content .cards .card {
+    width: calc(37% - 45px);
+    margin-bottom: 60px;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 941px) {
+  .union .content .cards .card {
+    width: calc(37% - 45px);
+    margin-bottom: 35px;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 871px) {
+  .union .content .cards .card {
+    width: calc(40% - 60px);
+    margin-bottom: 35px;
+  }
+  .union .content .cards .card p {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 831px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 45%;
+    margin-bottom: 70px;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 691px) {
+  .union {
+    margin: 0;
+  }
+  .union .content {
+    margin: 0 0 100px 0;
+  }
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 45%;
+    margin-bottom: 70px;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 541px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 70%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 451px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 75%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 23px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 421px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 70%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 381px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 70%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 361px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 70%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 331px) {
+  .union .content .cards {
+    padding-top: 45px;
+  }
+  .union .content .cards .card {
+    width: 70%;
+    margin-bottom: 70px;
+    margin: auto auto 60px auto;
+  }
+  .union .content .cards .card p {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .union .content .cards .card h1 {
+    font-size: 15px;
+  }
+}

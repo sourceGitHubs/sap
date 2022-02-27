@@ -1,3 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 body {
   margin: 0;
+  font-family: Montserrat;
+}
+
+.general {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 120px;
+
+  $small_mobile: 320px;
+  $mobile: 768px;
+  $small_table: 1024px;
+  $table: 1279px;
+  $desktop: 1280px;
+  $notebook: 1366px;
+  $small_fullHD: 1440px;
+  $fullHD: 1920px;
+  @media screen and (min-width: $mobile) and (max-width: 900px) {
+    padding: 0 100px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: $mobile) {
+    padding: 0 90px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 731px) {
+    padding: 0 80px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 711px) {
+    padding: 0 70px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 691px) {
+    padding: 0 50px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 661px) {
+    padding: 0 30px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 631px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 591px) {
+    padding: 0 10px;
+  }
+
+  @media screen and (min-width: $small_mobile) and (max-width: 561px) {
+    padding: 0 5px;
+  }
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  // scrollbar-color: #00000021 #ffffff81;
+  // border-radius: 1px solid;
+  // scrollbar-width: thin;
+
+  // &::-webkit-scrollbar {
+  //   width: 8px; /* ширина для вертикального скролла */
+  //   height: 8px; /* высота для горизонтального скролла */
+  //   background-color: #ffffff81;
+  // }
+
+  // /* ползунок скроллбара */
+  // &::-webkit-scrollbar-thumb {
+  //   background-color: #00000021;
+  // }
+
+  // &::-webkit-scrollbar-thumb:active {
+  //   background-color: #ffffff18;
+  // }
 }
