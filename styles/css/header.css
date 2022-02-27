@@ -499,6 +499,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: 20px;
   }
   .header .menu {
     -webkit-box-align: center;
@@ -541,6 +542,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: 10px;
   }
   .header .menu {
     -webkit-box-align: center;
@@ -583,6 +585,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-bottom: 5px;
   }
   .header .menu {
     -webkit-box-align: center;

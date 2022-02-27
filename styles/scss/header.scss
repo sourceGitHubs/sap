@@ -603,6 +603,7 @@ $fullHD: 1920px;
 @media screen and (min-width: $small_mobile) and (max-width: 541px) {
   .header {
     justify-content: space-between;
+    margin-bottom: 20px;
     .menu {
       align-items: center;
       font-size: 25px;
@@ -648,6 +649,7 @@ $fullHD: 1920px;
   @media screen and (min-width: $small_mobile) and (max-width: 421px) {
     .header {
       justify-content: space-between;
+      margin-bottom: 10px;
       .menu {
         align-items: center;
         font-size: 20px;
@@ -692,6 +694,7 @@ $fullHD: 1920px;
     @media screen and (min-width: $small_mobile) and (max-width: 401px) {
       .header {
         justify-content: space-between;
+        margin-bottom: 5px;
         .menu {
           align-items: center;
           font-size: 20px;

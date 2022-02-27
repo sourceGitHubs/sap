@@ -159,8 +159,7 @@
             align-items: center;
   }
   .products .bread_crumbs {
-    top: 107px;
-    left: 13px;
+    display: none;
   }
   .products .title {
     font-size: 38px;
